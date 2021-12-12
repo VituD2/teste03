@@ -29,29 +29,31 @@ header{
 }
 
 h1{
-    font: bold 5vw var(--fonte-title);
+    font: bold 4em var(--fonte-title);
     line-height: 0.8em;
 }
 
 .tittle_lower{
-    font-size: 4.2vw;
+    font-size: 0.7em;
 }
 
 header p{
-    font: normal 1.4vw var(--fonte-default);
+    font: normal 14px var(--fonte-default);
     padding: 5px 0px 15px 0px; 
     font-style: italic;
 }
 
 audio{
     height: 35px;
-    width: 400px;
+    max-width: 400px;
+    min-width: 300px;
+    margin-top: 3px;
 }   
 
 .aud_container{
     background-color: #fff;
     margin-top: 10px;
-    box-shadow: inset 0px 5px 6px 0px #00000080;
+    box-shadow: inset 0px 5px 6px 0px #00000054;
 }
 
 
@@ -73,7 +75,7 @@ section{
     background-color: #000;
     background-size: cover;
     background-attachment: fixed;
-    box-shadow: inset 1.5px 4px 8px 3px rgba(0, 0, 0, 0.527);
+    box-shadow: inset 0px 17px 9px 0px rgb(0 0 0 / 25%);
 }
 
 #idc_1{
@@ -83,7 +85,8 @@ section{
 
 #idc_2{
     background-image: url('../lol2.jpg');
-    background-position: right center;
+    background-position: top center;
+    padding-bottom: 0px;
 }
 
 .idk_2 > p{
@@ -94,23 +97,26 @@ section{
 }
 
 aside{
-    margin-top: 50px;
+    margin-top: 10%;
     text-align: center;
 }
 
 aside p{
     display: inline-block;
-    font-size: 1.5vw;
+    font-size: 1.6vw;
     color: white;
     text-align: center;
     padding: 10px 5px;
     background-color: #4d5787c4;
-    border-radius: 10px;
-    width: 30%;
+    border-radius: 10px ;
+    min-width: 15%;
+    min-height: 20%;
+    max-width: 80%;
+    max-height: 50%;
 }
 
 strong{
-    font-size: 2vw;
+    font-size: 2.1vw;
 }
 
 a{
@@ -122,28 +128,6 @@ a:hover{
     text-decoration: underline;
 }
 
-.cite{
-    font: normal 12pt var(--fonte-default);
-    color: white;
-    display: inline-block;
-    margin-top: 1%;
-    text-align: left;
-}
-
-.creator{
-    font: normal 12pt var(--fonte-default);
-    color: white;
-    padding: 15px 3px;
-    margin-left: 20%;
-    display: inline;
-}
-
-.foo_bg{
-    width: 100%;
-    height: 50px;
-    background-color: #1C213B;
-}
-
 #id_foo{
     background-image: url('../lol2.jpg');
     background-position: bottom center;
@@ -153,16 +137,51 @@ a:hover{
     background-size: cover;
     background-attachment: fixed;
     position: relative;
+    }
+
+.foo_bg{
+    height: 30px;
+    width: 100%;
+    background-color: #1C213B;
 }
 
-
 footer{
-    background-color: #0b3c5c;
+    display: flex;
+    height: 30px;
+    width: 100%;
+    background-color: #1C213B;
     padding-top: 30px;
 }
 
 footer p{
+    padding-top: 8px;
+    font: normal 0.7em var(--fonte-default);
+    color: #fff;
     background-color: #1C213B;
+    text-shadow: 0.2px 0.2px 1px rgba(0, 0, 0, 0.452);
 }
 
+.creator{
+    display:block;
+    margin: auto;
+    text-align: center;
+    margin-bottom: -4px;
+    padding: 1px 0px 0px;
+    box-shadow: 0px -4px 5px 0px rgb(0 0 0 / 38%);
+}
+
+.song_velvet{
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-size: 0.65em;
+    margin-bottom: -8px;
+}
+
+.riot_rights{
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-size: 0.55em;
+}
 
