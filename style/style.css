@@ -53,13 +53,13 @@ audio{
 .aud_container{
     background-color: #fff;
     margin-top: 10px;
-    box-shadow: inset 0px 5px 6px 0px #00000054;
+    box-shadow: inset 0px 4px 5px 0px #0000003d;
 }
 
 
 main p{
     font: normal 2.5vw var(--fonte-letter);
-    line-height: 2em;
+    line-height: 2.3em;
 }
 
 section{
@@ -107,7 +107,7 @@ aside p{
     color: white;
     text-align: center;
     padding: 10px 5px;
-    background-color: #4d5787c4;
+    background-color: #4d5787b9;
     border-radius: 10px ;
     min-width: 15%;
     min-height: 20%;
